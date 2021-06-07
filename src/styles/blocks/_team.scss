@@ -1,0 +1,45 @@
+.team{
+    background-color: #FBF2DA;;
+  }
+  
+  .team_items{
+    display: flex;
+  }
+  
+  .team_item img{
+    box-sizing: border-box;
+    width: 320px;
+    height: 320px;
+  padding: 15px;
+  }
+  
+  .team_item{
+  font-family:  'Open-sans', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    line-height: 33px;
+    position: relative;
+  }
+  
+  .team_item p{
+  width: 291px;
+  height: 53px;
+  background-color: rgba(0, 0, 0, 0.4);
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  bottom: 0px;
+  left: 15px;
+  padding-top: 10px;
+  }
+  
+  .team .h3{
+    text-align: left;
+  }
+  
+  .down_text{
+    font-family:  'Open-sans', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    line-height: 26px;
+    }

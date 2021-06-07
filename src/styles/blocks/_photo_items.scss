@@ -1,0 +1,22 @@
+.photo_items{
+    position: relative;
+    background-color: #FBF2DA;;
+}
+.photo_items img{
+  width: 1060px;
+  height: 600px;
+  margin-left: 110px;
+}
+.photo_items .container::before{
+  content:url(../image/arrow.png);
+  position: absolute;
+  top: 50%;
+  margin-right: 27px;
+}
+.photo_items .container::after{
+  content:url(../image/arrow.png);
+  position: absolute;
+  top: 50%;
+  transform: rotate(180deg);
+  margin-left: 27px;
+  }
