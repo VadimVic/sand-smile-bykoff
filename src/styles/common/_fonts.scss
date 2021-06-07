@@ -1,1 +1,33 @@
 $font: Arial, "Helvetica Neue", Helvetica, sans-serif;
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+    url('../../../www/fonts/open-sans-v20-latin_cyrillic-regular.woff'),
+    url('../../../www/fonts/open-sans-v20-latin_cyrillic-regular.woff2 )
+    ;
+     }
+
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 300;
+    src: local(''),
+     url('../../../www/fonts/raleway-v19-latin_cyrillic-300.woff'),
+     url('../../../www/fonts/raleway-v19-latin_cyrillic-300.woff2')
+     ;
+        
+  }
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''), 
+    url('../../../www/fonts/roboto-v27-latin_cyrillic-regular.woff'),
+    url('../../../www/fonts/roboto-v27-latin_cyrillic-regular.woff2')
+    ;
+        
+  }
