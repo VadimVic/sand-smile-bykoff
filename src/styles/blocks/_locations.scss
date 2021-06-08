@@ -3,56 +3,32 @@
     flex-wrap: wrap;
     }
     
-.location_item{    
-    width: 624px;
-    height: 272px;
-    margin: 8px;
-    display: flex;
-    flex-direction: column;
-    }
+// .location_item{    
+//     width: 624px;
+//     height: 272px;
+//     margin: 8px;
+//     display: flex;
+//     flex-direction: column;
+//     }
     
-.location_item.pic_1{    
-    background-image: url(../image/peter_paul.jpg);
+.location_item{  
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    border-radius: 0px 5px 5px 0px;
-    }
-    
-.location_item.pic_2{    
-    background-image: url(../image/osinovec_firehouse.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 5px 0px 0px 5px;
-    }
-.location_item.pic_3{    
-    background-image: url(../image/laskovy_beach.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 0px 5px 5px 0px;
-    }
-    
-.location_item.pic_4{    
-    background-image: url(../image/park_of_300years_spb.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 5px 0px 0px 5px;
+    border-radius: 5px;
     }
     
 .location_item p{    
-        margin-bottom: 30px;
-        margin-left: 30px;
+    margin-bottom: 30px;
+    margin-left: 30px;        
     }
     
 .location_item a{    
-       text-decoration: none;
-       color: #fff;
-       font-family: 'Roboto', sans-serif;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 24px;
-        line-height: 28px;
-    }
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;      
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;    
+    line-height: 28px;           
+    }    

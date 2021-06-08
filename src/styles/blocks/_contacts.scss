@@ -1,63 +1,63 @@
 .form input,
 textarea
 {
-  background-color: #FBF2DA;
-  font-family:  'Open-sans', sans-serif;
-  font-size: 20px;
-  font-style: normal;
-  line-height: 27px;
-  text-align: left;
-  border: 0 ;
-  margin: 0 15px;
+    background-color: #FBF2DA;
+    font-family:  'Open-sans', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    line-height: 27px;
+    text-align: left;
+    border: 0 ;
+    margin: 0 15px;
   }
 
 .contacts p {
-  font-family:  'Open-sans', sans-serif;
-  font-size: 20px;
-  font-style: normal;
-  line-height: 27px;
-  text-align: center;
+    font-family:  'Open-sans', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    line-height: 27px;
+    text-align: center;
 }
 
 .contacts a {
-  text-decoration: none;
-  color: #D46240;
+    text-decoration: none;
+    color: #D46240;
 }
 
 .form .container {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  text-align: left;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: left;
   }
 
 .form input {
-  width: 406px;
-  height: 67px;
+    width: 406px;
+    height: 67px;
 }
 
 .form textarea {
-  width: 842px;
-  height: 167px;
+    width: 842px;
+    height: 167px;
 }
 
 .form .text-form {
-  width: 406px;
-  height: 67px;
-  margin: 0 15px;
-  color: #D46240;
+    width: 406px;
+    height: 67px;
+    margin: 0 15px;
+    color: #D46240;
   }
 
 .text-form-textarea {
-  width: 842px;
-  height: 50px;
-  color: #D46240;
+    width: 842px;
+    height: 50px;
+    color: #D46240;
   }
 
 .form .text-form p {
-  text-align: left;
+    text-align: left;
 }
 
 .text-form-textarea p{
-  text-align: left;
+    text-align: left;
 }
