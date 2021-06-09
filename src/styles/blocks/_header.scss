@@ -2,19 +2,25 @@
     box-sizing: border-box;
   }
   .container{
-    width: 1280px;
-    margin: 0 auto;
-   
-  }
+      width: 1280px;
+      margin: 0 auto;
+     }
   .header{
-    background-color: #152B3C;
-        color: #fff;
-  }
+      background-color: #152B3C;
+      color: #fff;
+      }
   
-  .brand_name{
-    font-family:  'Raleway', sans-serif;
-    font-size: 42px;
-    font-style: Light;
-    line-height: 49px;
-    color: #fff;
+  .brand_name a{
+      font-family:  'Raleway', sans-serif;
+      font-size: 42px;
+      font-style: Light;
+      line-height: 49px;
+      color: #fff;
+      text-decoration: none;
     }
+    
+  .header .container{
+      display: flex;
+      justify-content:space-between;  
+      align-items: center;  
+    }    
