@@ -1,14 +1,48 @@
-.form input,
-textarea
-{
-    background-color: #FBF2DA;
+// .form input,
+// textarea
+// {
+//     background-color: #FBF2DA;
+//     font-family:  'Open-sans', sans-serif;
+//     font-size: 20px;
+//     font-style: normal;
+//     line-height: 27px;
+//     text-align: left;
+//     border: 0 ;
+//     margin: 0 15px;
+//   }
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    }
+
+.form label {    
     font-family:  'Open-sans', sans-serif;
     font-size: 20px;
     font-style: normal;
     line-height: 27px;
-    text-align: left;
-    border: 0 ;
-    margin: 0 15px;
+    color: #D46240;
+    }
+
+.contacts-text-field{
+    display: flex;
+    width: 842px;
+    
+  }
+
+.contacts-item{  
+    width: 408px;
+    height: 67px;
+    background-color: #FBF2DA;
+    border: none;
+    margin-right: 30px;
+  }
+
+ .contacts-item-two { 
+    width: 842px;
+    background-color: #FBF2DA;
+    border: none;
   }
 
 .contacts p {
@@ -19,45 +53,63 @@ textarea
     text-align: center;
 }
 
+.contacts-checkbox{
+  width: 32px;
+  height: 32px;
+  margin-right:11px;
+  }
+
+// .contacts-checkbox {
+//   color: #D46240;
+//   background-color: brown;
+// }
+
+.contacts-column{
+    display: flex;
+    flex-direction: column;
+    // padding: 0 15px;
+    
+}
+
 .contacts a {
     text-decoration: none;
     color: #D46240;
 }
 
-.form .container {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    text-align: left;
-  }
+// .form .container {
+//     display: flex;
+//     justify-content: center;
+//     flex-wrap: wrap;
+//     text-align: left;
+//   }
 
-.form input {
-    width: 406px;
-    height: 67px;
-}
+// .form input {
+//     width: 406px;
+//     height: 67px;
+// }
 
-.form textarea {
-    width: 842px;
-    height: 167px;
-}
+// .form textarea {
+//     width: 842px;
+//     height: 167px;
+// }
 
-.form .text-form {
-    width: 406px;
-    height: 67px;
-    margin: 0 15px;
-    color: #D46240;
-  }
+// .form .text-form {
+//     width: 406px;
+//     height: 67px;
+//     margin: 0 15px;
+//     color: #D46240;
+//   }
 
-.text-form-textarea {
-    width: 842px;
-    height: 50px;
-    color: #D46240;
-  }
+// .text-form-textarea {
+//     width: 842px;
+//     height: 50px;
+//     color: #D46240;
+//   }
 
-.form .text-form p {
-    text-align: left;
-}
+// .form .text-form p {
+//     text-align: left;
+// }
 
-.text-form-textarea p{
-    text-align: left;
-}
+// .text-form-textarea p{
+//     text-align: left;
+// }

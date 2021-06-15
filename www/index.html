@@ -114,14 +114,14 @@
                 <div class="slider">
                     <img src="image/img_gallery_1.jpg" alt="мальчик строит песочный замок">
                 </div>
-                
+
             </div>
 
         </section>
         <section class="locations">
             <div class="container">
                 <h2 class="second-title">
-                    Локации  
+                    Локации
                 </h2>
                 <div class="location_items">
                     <div class="location_item" style="background-image: url(/image/peter_paul.jpg); ">
@@ -155,46 +155,46 @@
         <section class="team">
             <div class="container">
                 <h2 class="second-title">Команда</h2>
-                
-                    <div class="team_items">
-                         <a href="#">
-                            <div class="team_item">
-                                <img src="image/man_with_cap.png" alt="мужчина в очках с открытым ртом">
-                                <p>Sir Lee Wow I</p>
-                            </div>
-                        </a>
-                        
-                        <a href="#">
-                            <div class="team_item">
-                                <img src="image/penelope.png" alt="брюнетка в красном платье">
-                                <p>Penelope</p>
-                            </div>  
-                        </a>
-                        
-                        <a href="#">
-                            <div class="team_item">
-                                <img src="image/man_bb.png" alt="бородатый мужчина в шапке ест пирожок">
-                                <p>Mr. B.B.</p>
-                            </div>
-                        </a>
-                        
-                        <a href="#">
-                            <div class="team_item">
-                                <img src="image/man_with_cap.png" alt="мужчина в очках с открытым ртом">
-                                <p>Sir Lee Wow I</p>
-                            </div>
-                        </a>
-                        
 
-                    </div>
-                    <h3 class="h3">Sir Lee Wow II</h3>
-                    <p class="down_text">Брат близнец Сира Ли Первого. Вместе с братом - весьма эффективная команда по
-                        приготовлению
-                        бургеров
-                        и прочих закусок. В нашей команде есть легенда, что однажды они сделали столько бургеров, что
-                        даже
-                        мистер Биг Бургер (Mr. B.B.) не смог их съесть.</p>
+                <div class="team_items">
+                    <a href="#">
+                        <div class="team_item">
+                            <img src="image/man_with_cap.png" alt="мужчина в очках с открытым ртом">
+                            <p>Sir Lee Wow I</p>
+                        </div>
+                    </a>
+
+                    <a href="#">
+                        <div class="team_item">
+                            <img src="image/penelope.png" alt="брюнетка в красном платье">
+                            <p>Penelope</p>
+                        </div>
+                    </a>
+
+                    <a href="#">
+                        <div class="team_item">
+                            <img src="image/man_bb.png" alt="бородатый мужчина в шапке ест пирожок">
+                            <p>Mr. B.B.</p>
+                        </div>
+                    </a>
+
+                    <a href="#">
+                        <div class="team_item">
+                            <img src="image/man_with_cap.png" alt="мужчина в очках с открытым ртом">
+                            <p>Sir Lee Wow I</p>
+                        </div>
+                    </a>
+
+
                 </div>
+                <h3 class="h3">Sir Lee Wow II</h3>
+                <p class="down_text">Брат близнец Сира Ли Первого. Вместе с братом - весьма эффективная команда по
+                    приготовлению
+                    бургеров
+                    и прочих закусок. В нашей команде есть легенда, что однажды они сделали столько бургеров, что
+                    даже
+                    мистер Биг Бургер (Mr. B.B.) не смог их съесть.</p>
+            </div>
 
         </section>
         <section class="contacts">
@@ -204,34 +204,27 @@
                         href="#">whatsapp</a> или заполните <br> форму и мы ответим вам в whatsapp по указанному номеру
                     телефона.
                 </p>
-                <div class="form">
-                    <form name="test" method="post" action="input1.php">
-                        <div class="container">
-                            <div class="text-form">
-                                <p>имя</p>
-                            </div>
-                            <div class="text-form">
-                                <p>телефон</p>
-                            </div>
-                            <input type="text" size="40" name="nick" placeholder="Иван Иванов">
-
-                            <input type="text" size="40" name="nick" placeholder="+7 (911) 911-11-11">
-                            <div class="text-form-textarea">
-                                <p>ЧаГо надо?</p>
-                            </div>
-
-                            <textarea name="comment" cols="90" rows="5" placeholder="Привет! По каким дням и в какое время дня проводите мастер-классы?
-                         Было бы неплохо разместить на сайте расписание мастер-классов. Спасибо)"></textarea>
-
+                <form class="form" action="/my-handling-form-page" method="post">
+                    <div class="contacts-text-field">
+                        <div class="contacts-column">
+                            <label for="name">Имя</label>
+                            <input class="contacts-item" type="text" id="name" name="user_name" />
                         </div>
-                        <p><input type="checkbox" checked>Даю согласие на обработку персональных данных с соответствии с
-                            <a href="#">политикой обработки персональных данных</a>
-                        </p>
-                        <p><input type="submit" value="Отправить">
-                        </p>
-                    </form>
-                </div>
-            </div>
+                        <div class="contacts-column">
+                            <label for="mail">Телефон</label>
+                            <input class="contacts-item" type="email" id="mail" name="user_email" />
+                        </div>
+                    </div>
+                    <div class="contacts-column">
+                        <label for="msg">Чаго Надо</label>
+                        <textarea class="contacts-item-two" rows="20" id="msg" name="user_message"></textarea>
+                    </div>
+                    <p><input class="contacts-checkbox" type="checkbox" name="user_email" />Даю согласие на
+                        обработку персональных данных с соответствии с <a href="#">политикой
+                            обработки персональных данных</a> </p>
+                </form>        
+
+                    </div>
 
         </section>
     </main>
