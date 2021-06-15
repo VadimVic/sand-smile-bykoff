@@ -1,0 +1,14 @@
+*{
+    box-sizing: border-box;
+    }
+
+.container{
+    width: 1280px;
+    margin: 0 auto;
+   }
+   
+   @media (max-width: 767px) {
+    .container {
+        width: 768px;
+    }
+   }
