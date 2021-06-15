@@ -14,8 +14,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    
-    }
+     }
 
 .form label {    
     font-family:  'Open-sans', sans-serif;
@@ -28,8 +27,16 @@
 .contacts-text-field{
     display: flex;
     width: 842px;
-    
-  }
+    }
+
+.contacts-text-field-two a{  
+   font-size: 20px;
+    }
+
+ .contacts-text-field-two{     
+    width: 842px;
+    text-align: left;          
+    }  
 
 .contacts-item{  
     width: 408px;
@@ -37,44 +44,41 @@
     background-color: #FBF2DA;
     border: none;
     margin-right: 30px;
-  }
+    }
 
- .contacts-item-two { 
+.contacts-item-two {  
     width: 842px;
     background-color: #FBF2DA;
     border: none;
-  }
+    }
 
 .contacts p {
     font-family:  'Open-sans', sans-serif;
     font-size: 20px;
     font-style: normal;
     line-height: 27px;
-    text-align: center;
-}
+    // text-align: center;
+    }
+
+    .contacts-text{
+
+    text-align: center;}
 
 .contacts-checkbox{
-  width: 32px;
-  height: 32px;
-  margin-right:11px;
-  }
-
-// .contacts-checkbox {
-//   color: #D46240;
-//   background-color: brown;
-// }
+    width: 842x;
+    margin-right:11px;
+    }
 
 .contacts-column{
     display: flex;
     flex-direction: column;
     // padding: 0 15px;
-    
-}
+    }
 
 .contacts a {
     text-decoration: none;
     color: #D46240;
-}
+    }
 
 // .form .container {
 //     display: flex;
