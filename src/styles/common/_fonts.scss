@@ -5,8 +5,8 @@ $font: Arial, "Helvetica Neue", Helvetica, sans-serif;
     font-style: normal;
     font-weight: 400;
     src: local(''),
-    url('../www/fonts/open-sans-v20-latin_cyrillic-regular.woff2') format('woff2'),
-    url('../www/fonts/open-sans-v20-latin_cyrillic-regular.woff') format('woff');
+    url('../fonts/open-sans-v20-latin_cyrillic-regular.woff2') format('woff2'),
+    url('../fonts/open-sans-v20-latin_cyrillic-regular.woff') format('woff');
      }
 
 @font-face {
@@ -14,8 +14,8 @@ $font: Arial, "Helvetica Neue", Helvetica, sans-serif;
     font-style: normal;
     font-weight: 300;
     src: local(''),
-     url('../www/fonts/raleway-v19-latin_cyrillic-300.woff2') format('woff2'),
-     url('../www/fonts/raleway-v19-latin_cyrillic-300.woff') format('woff');
+     url('../fonts/raleway-v19-latin_cyrillic-300.woff2') format('woff2'),
+     url('../fonts/raleway-v19-latin_cyrillic-300.woff') format('woff');
         
   }
 
