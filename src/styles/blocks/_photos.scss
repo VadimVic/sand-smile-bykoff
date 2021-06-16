@@ -1,22 +1,22 @@
-.slider{
+.slider {
     position: relative;
     background-color: #FBF2DA;;
 }
 
-.slider img{
+.slider img {
     width: 1060px;
     height: 600px;
     margin-left: 110px;
 }
 
-.slider::before{
+.slider::before {
     content:url(../image/arrow.png);
     position: absolute;
     top: 50%;
     margin-right: 27px;
 }
 
-.slider::after{
+.slider::after {
     content:url(../image/arrow.png);
     position: absolute;
     top: 50%;

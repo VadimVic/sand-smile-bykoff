@@ -1,4 +1,4 @@
- .header{
+ .header {
     position: fixed;
     top: 0;
     left: 0;
@@ -8,7 +8,7 @@
     color: #fff;  
     }
   
- .header .brand_name{
+ .header .brand_name {
    margin-right: auto;
       font-family:  'Raleway', sans-serif;
       font-size: 42px;
@@ -18,15 +18,15 @@
       font-weight: 300;
   }
 
-  .header .brand_name:hover{
+  .header .brand_name:hover {
     color: #D46240;
   }
 
-  .brand_name a{
+  .brand_name a {
       text-decoration: none;
     }
 
-  .header .phone-num{
+  .header .phone-num {
     font-family: 'Roboto', sans-serif;      
     font-style: normal;
     font-weight: 400;
@@ -35,11 +35,11 @@
     margin-left: 145px;
   }
   
-  .header .phone-num:hover{
+  .header .phone-num:hover {
     color: #D46240;
       }
 
-  .header .container{
+  .header .container {
       display: flex;
       justify-content:space-between;  
       align-items: center;  

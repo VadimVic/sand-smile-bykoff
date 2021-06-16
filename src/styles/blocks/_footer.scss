@@ -1,7 +1,8 @@
-.footer{
+.footer {
     background-color: #152B3C;
 }
-.footer .container{
+
+.footer .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -9,13 +10,12 @@
     color: #FBF2DA;
 }
 
-.social-icons{
-
+.social-icons {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-.social-icons img{
+.social-icons img {
     margin-left: 15px;
 }
