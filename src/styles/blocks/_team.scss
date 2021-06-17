@@ -43,3 +43,11 @@
       font-style: normal;
       line-height: 26px;
     }
+
+    .team-person{
+        display: none;
+    }
+     
+    .team-person team_item:active{
+        display: inline ;
+    }
