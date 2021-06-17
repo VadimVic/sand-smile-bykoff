@@ -1,25 +1,39 @@
+.photos{
+    background-color: #FBF2DA;
+    height: 983px;
+}
+
 .slider {
+    display: flex;
+    align-items: center;
     position: relative;
-    background-color: #FBF2DA;;
+    
+}
+
+.slider-pic{
+    width: 1060px;
+    height: 600px;
 }
 
 .slider img {
-    width: 1060px;
-    height: 600px;
+    max-width: 100%;
     margin-left: 110px;
 }
 
-.slider::before {
-    content:url(../image/arrow.png);
+.control-icon {
+    background-image: url(../image/arrow.png);
+    width: 80px;
+    height: 80px;
     position: absolute;
-    top: 50%;
-    margin-right: 27px;
 }
 
-.slider::after {
-    content:url(../image/arrow.png);
-    position: absolute;
-    top: 50%;
+.control-icon-right {
     transform: rotate(180deg);
-    margin-left: 27px;
-  }
+    right: 0;
+    top: 50%;
+}
+
+.control-icon-left{
+    left: 0;
+    top: 50%;
+}

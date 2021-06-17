@@ -2,9 +2,15 @@
     display: flex;
     flex-wrap: wrap;
     }
-        
+     
+    .location-card{
+    width: 50%;
+    
+    }
+
 .location_item {  
-    width: 624px;
+    max-width: 100%;
+    // width: 624px;
     height: 272px;
     margin: 8px;
     display: flex;

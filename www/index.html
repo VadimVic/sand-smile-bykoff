@@ -91,7 +91,8 @@
                             <p>Вы не только запомните потрясающий мастер класс, но и отличн отдохнете!</p>
                             <ul>
                                 <li>от<span class="orange_letter"> 18 </span> лет </li>
-                                <li>с<span class="orange_letter"> 19-00 </span> и до <span class="orange_letter">утра</span>
+                                <li>с<span class="orange_letter"> 19-00 </span> и до <span
+                                        class="orange_letter">утра</span>
                                 </li>
                                 <li><span class="orange_letter"> ∞ </span>человек </li>
                                 <li><span class="orange_letter"> ∞ </span> коктейли </li>
@@ -111,10 +112,19 @@
         <section class="photos">
             <div class="container">
                 <h2 class="second-title">Фото с мероприятий</h2>
+                <!-- <div class="control-icon control-icon-left"></div> -->
                 <div class="slider">
-                    <img src="image/img_gallery_1.jpg" alt="мальчик строит песочный замок">
-                </div>
+                    <div class="control-icon control-icon-left">
 
+                    </div>
+                    <div class="slider-pic">
+                        <img src="image/img_gallery_1.jpg" alt="мальчик строит песочный замок">
+                    </div>
+                    <div class="control-icon control-icon-right">
+
+                    </div>
+                </div>
+                <!-- <div class="control-icon control-icon-right"></div> -->
             </div>
 
         </section>
@@ -124,31 +134,40 @@
                     Локации
                 </h2>
                 <div class="location_items">
-                    <div class="location_item" style="background-image: url(/image/peter_paul.jpg); ">
-                        <!-- <img src="" alt="Пляж Петропавловской
-                        крепости"> -->
-                        <h4 class="h4">Пляж Петропавловской
-                            крепости</h4>
-                        <p> <a href="#">Подробнее о локации</a> </p>
+                    <div class="location-card">
+                        <div class="location_item" style="background-image: url(image/peter_paul.jpg); ">
+                            <!-- <img src="" alt="Пляж Петропавловской
+                            крепости"> -->
+                            <h4 class="h4">Пляж Петропавловской
+                                крепости</h4>
+                            <p> <a href="#">Подробнее о локации</a> </p>
+                        </div>
                     </div>
-                    <div class="location_item" style="background-image: url(/image/osinovec_firehouse.jpg); ">
-                        <!-- <img src="#" alt="Осиновецкий маяк"> -->
-                        <h4 class="h4">Осиновецкий маяк</h4>
-                        <p> <a href="#">Подробнее о локации</a> </p>
+
+                    <div class="location-card">
+                        <div class="location_item" style="background-image: url(image/osinovec_firehouse.jpg); ">
+                            <!-- <img src="#" alt="Осиновецкий маяк"> -->
+                            <h4 class="h4">Осиновецкий маяк</h4>
+                            <p> <a href="#">Подробнее о локации</a> </p>
+                        </div>
                     </div>
-                    <div class="location_item" style="background-image: url(/image/laskovy_beach.jpg); ">
-                        <!-- <img src="#" alt="Ласковый пляж в Курортном р-не"> -->
-                        <h4 class="h4">Ласковый пляж <br> в Курортном р-не</h4>
-                        <p> <a href="#">Подробнее о локации</a> </p>
+
+                    <div class="location-card">
+                        <div class="location_item" style="background-image: url(image/laskovy_beach.jpg); ">
+                            <!-- <img src="#" alt="Ласковый пляж в Курортном р-не"> -->
+                            <h4 class="h4">Ласковый пляж <br> в Курортном р-не</h4>
+                            <p> <a href="#">Подробнее о локации</a> </p>
+                        </div>
                     </div>
-                    <div class="location_item" style="background-image: url(/image/park_of_300years_spb.jpg); ">
-                        <!-- <img src="#" alt="Парк имени 300-летия Санкт-Петербурга"> -->
-                        <h4 class="h4">Парк имени 300-летия <br>Санкт-Петербурга</h4>
-                        <p> <a href="#">Подробнее о локации</a> </p>
+
+                    <div class="location-card">
+                        <div class="location_item" style="background-image: url(Image/park_of_300years_spb.jpg); ">
+                            <!-- <img src="#" alt="Парк имени 300-летия Санкт-Петербурга"> -->
+                            <h4 class="h4">Парк имени 300-летия <br>Санкт-Петербурга</h4>
+                            <p> <a href="#">Подробнее о локации</a> </p>
+                        </div>
                     </div>
                 </div>
-
-            </div>
             </div>
 
         </section>
@@ -158,6 +177,7 @@
 
                 <div class="team_items">
                     <a href="#">
+                        
                         <div class="team_item">
                             <img src="image/man_with_cap.png" alt="мужчина в очках с открытым ртом">
                             <p>Sir Lee Wow I</p>
@@ -201,8 +221,8 @@
             <div class="container">
                 <h2 class="second-title">Контакты</h2>
                 <p class="contacts-text">Остались вопросы? Позвоните нам по телефону <a href="#">
-                     +7 812 888-88-88</a>,
-                    напишите в <a href="#">whatsapp</a> или заполните <br> форму и мы ответим 
+                        +7 812 888-88-88</a>,
+                    напишите в <a href="#">whatsapp</a> или заполните <br> форму и мы ответим
                     вам в whatsapp по
                     указанному номеру
                     телефона.
@@ -226,7 +246,7 @@
                             name="user_email" />Даю согласие на
                         обработку персональных данных с соответствии с <a href="#">политикой
                             обработки персональных данных</a> </p>
-                            <div class="btn btn-big">Отправить</div>
+                    <div class="btn btn-big">Отправить</div>
                 </form>
 
             </div>
