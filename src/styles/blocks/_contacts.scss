@@ -42,6 +42,36 @@
 
 }
 
+.form-field--checkbox {
+  input {
+    display: none;
+  }
+
+  label {
+    display: flex;
+    flex-wrap: wrap;
+
+    &:before {
+      content: '';
+      display: block;
+      width: 35px;
+      height: 35px;
+      margin-right: 5px;
+      background-color:  #D46240;
+      background-size: 100%;
+    }
+  }
+
+  input:checked + label:before{
+    background-image: url(../image/checkmark.svg);
+      }
+
+  a {
+    margin-left: 40px;
+  }
+}
+
+
 .form label {
   font-family:  'Open-sans', sans-serif;
   font-size: 20px;
