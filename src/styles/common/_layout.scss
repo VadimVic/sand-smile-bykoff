@@ -1,17 +1,21 @@
 *{
     box-sizing: border-box;
-    }
+}
 
-    .body{
-        margin: 0;
-    }
+.body{
+  margin: 0;
+}
+
 .container {
-    width: 1280px;
-    margin: 0 auto;
-   }
-   
-   @media (max-width: 767px) {
-    .container {
-        width: 768px;
+  max-width: 1280px;
+  margin: 0 auto;
+
+  @media (max-width: 767px) {
+    width: 768px;
     }
-   }
+  }
+
+  h2 {
+    margin-top: 0;
+  }
+

@@ -1,40 +1,42 @@
 .photos{
-    background-color: #FBF2DA;
-    height: 983px;
+  padding-top: $section-indent;
+  padding-bottom: $section-indent;
+  background-color: #FBF2DA;
+  height: 983px;
 }
 
 .slider {
-    display: flex;
-    align-items: center;
-    position: relative;
+  display: flex;
+  align-items: center;
+  position: relative;
 
 }
 
 .slider-pic{
-    width: 1060px;
-    height: 600px;
+  width: 1060px;
+  height: 600px;
 }
 
 .slider img {
-    max-width: 100%;
-    margin-left: 110px;
+  max-width: 100%;
+  margin-left: 110px;
 }
 
 .control-icon {
-    background-image: url(../image/arrow.png);
-    width: 80px;
-    height: 80px;
-    position: absolute;
-    border: none
+  background-image: url(../image/arrow.png);
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  border: none
 }
 
 .control-icon-right {
-    transform: rotate(180deg);
-    right: 0;
-    top: 50%;
+  transform: rotate(180deg);
+  right: 0;
+  top: 50%;
 }
 
 .control-icon-left{
-    left: 0;
-    top: 50%;
+  left: 0;
+  top: 50%;
 }

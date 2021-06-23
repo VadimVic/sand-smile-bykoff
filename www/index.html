@@ -255,7 +255,7 @@
       </div>
 
     </section>
-    <section class="contacts">
+    <!-- <section class="contacts">
       <div class="container">
         <h2 class="second-title">Контакты</h2>
         <p class="contacts-text">Остались вопросы? Позвоните нам по телефону <a href="#">
@@ -285,6 +285,51 @@
             обработку персональных данных с соответствии с <a href="#">политикой
               обработки персональных данных</a> </p>
           <div class="btn btn-big">Отправить</div>
+        </form>
+
+      </div>
+
+    </section> -->
+    <section class="contacts">
+      <div class="container">
+        <h2 class="second-title">Контакты</h2>
+        <p class="contacts-text">Остались вопросы? Позвоните нам по телефону <a href="#">
+            +7 812 888-88-88</a>,
+          напишите в <a href="#">whatsapp</a> или заполните <br> форму и мы ответим
+          вам в whatsapp по
+          указанному номеру
+          телефона.
+        </p>
+        <form class="form" action="#" method="post">
+
+          <div class="form-field form-field-half">
+            <label for="name">Имя</label>
+            <input class="contacts-item" type="text" id="name" name="user_name" />
+          </div>
+
+          <div class="form-field form-field-half">
+            <label for="mail">Телефон</label>
+            <input class="contacts-item" type="email" id="mail" name="user_email" />
+          </div>
+
+          <div class="form-field">
+            <label for="msg">Чаго Надо</label>
+            <textarea class="contacts-item" rows="10" id="msg" name="user_message"></textarea>
+          </div>
+
+          <div class="form-field">
+            <input type="checkbox" name="user_email" />
+            <!-- <input class="contacts-checkbox" type="checkbox" name="user_email" /> -->
+            <label for="">
+              <span>Даю согласие на обработку персональных данных с соответствии с</span>  <a href="#">политикой обработки персональных
+                данных</a>
+            </label>
+          </div>
+
+          <div class="form-field">
+          <button type="submit" class="btn btn-big">Отправить</button>
+          </div>
+
         </form>
 
       </div>
