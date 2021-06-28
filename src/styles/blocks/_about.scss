@@ -1,33 +1,22 @@
 
-   .h4 {
-      font-family: 'Roboto', sans-serif;
-      font-style: normal;
-      font-weight: 400;
-      font-size: 40px;
-      line-height: 47px;
-      color: #fff;
-      margin-top: 30px;
-      margin-left: 30px;
-      margin-bottom: auto;
-    }
-
     .about {
       // padding-top: $section-indent;
       // padding-bottom: $section-indent;
-      background-image: url(../image/Main_sandcastle.jpg);
-      // height: 650px;
-      background-size:cover;
+      // background-image: url(../image/Main_sandcastle.jpg);
+      // height: 100%;
+      background-size: cover;
       text-align: center;
       font-family:  'Open-sans', sans-serif;
-      font-size: 24px;
-      font-style: normal;
-      line-height: 33px;
+      font-size: 32px;
+      font-weight: 400;
+      line-height: 43.58px;
       color: #fff;
     }
 
     .main_text {
       width: 1100px;
       margin: 0 auto;
+      padding-bottom: 235px;
     }
 
     .about-bgr {
@@ -41,9 +30,12 @@
     }
 
     .main-title {
+      margin: 0 auto;
       font-family:  'Raleway', sans-serif;
       font-size: 116px;
       font-style: normal;
       color: #fff;
       font-weight: 300;
+      padding-top: 191px;
+      line-height: 136.18px;
     }
