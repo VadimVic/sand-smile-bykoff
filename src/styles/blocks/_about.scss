@@ -12,10 +12,10 @@
     }
 
     .about {
-      padding-top: $section-indent;
-      padding-bottom: $section-indent;
+      // padding-top: $section-indent;
+      // padding-bottom: $section-indent;
       background-image: url(../image/Main_sandcastle.jpg);
-      height: 650px;
+      // height: 650px;
       background-size:cover;
       text-align: center;
       font-family:  'Open-sans', sans-serif;
@@ -31,8 +31,10 @@
     }
 
     .about-bgr {
+      padding-top: $section-indent;
+      padding-bottom: $section-indent;
       background-color: rgba(21, 43, 60, 0.4);
-      height: 550px;
+      // height: 550px;
       display: flex;
       flex-direction: column;
       justify-content: center;

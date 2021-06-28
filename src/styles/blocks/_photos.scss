@@ -2,14 +2,50 @@
   padding-top: $section-indent;
   padding-bottom: $section-indent;
   background-color: #FBF2DA;
-  height: 983px;
+  // height: 983px;
+}
+
+.photos-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .slider {
   display: flex;
-  align-items: center;
-  position: relative;
+  width: 80%;
+  margin: 0 auto;
+  // position: relative;
+}
 
+.slider .slick-dots {
+  display: flex;
+  justify-content: center;
+  padding-left: 0;
+  list-style: none;
+}
+
+.slider .slick-dots li + li {
+  margin-left: 10px;
+}
+
+.slider .slick-dots .slick-active button {
+  background-color: #000;
+  box-shadow: inset 0 0 0 2px #fff;
+}
+
+.slider .slick-dots button {
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  margin: 0;
+  border-radius: 50%;
+  border: 2px solid #000;
+  font-size: 0;
+}
+
+.slider button {
+  cursor: pointer;
 }
 
 .slider-pic{
@@ -17,16 +53,20 @@
   height: 600px;
 }
 
-.slider img {
+.slider-pic img {
   max-width: 100%;
-  margin-left: 110px;
+  height: 600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover ;
+  padding-left: 110px;
 }
 
 .control-icon {
   background-image: url(../image/arrow.png);
   width: 80px;
   height: 80px;
-  position: absolute;
+  // position: absolute;
   border: none
 }
 

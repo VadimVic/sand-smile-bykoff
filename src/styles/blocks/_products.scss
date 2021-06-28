@@ -31,8 +31,8 @@
 .class-card {
     // margin: 0 15px;
     // height: 100%;
-    // display: flex;
-    // flex-direction: column;
+  display: flex;
+  flex-direction: column;
     // justify-content: space-between;
   height: 100%;
   text-align: center;
@@ -44,6 +44,7 @@
 }
 
 .card-context {
+  flex-grow: 1;
   display: flex;
   flex-direction: column;
   align-items: center;
