@@ -52,19 +52,23 @@
     flex-wrap: wrap;
 
     &:before {
-      content: '';
-      display: block;
-      width: 35px;
-      height: 35px;
+      content:url() ;
+      // display: block;
+      width: 30px;
+      height: 30px;
       margin-right: 5px;
-      background-color:  #D46240;
+      background-image: url(../image/checkmark.svg);
+      background-color:  rgba(212, 98, 64, 1);
+      border-radius: 3px;
       background-size: 100%;
+      background-size: cover;
     }
   }
 
   input:checked + label:before{
     background-image: url(../image/checkmark.svg);
-      }
+    background-color:  rgba(212, 98, 64, 0);
+   }
 
   a {
     margin-left: 40px;
