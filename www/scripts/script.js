@@ -24,6 +24,10 @@
   // // //   // console.log(sliderWrap);
   // });
 
+  $('.burger').on('click', function () {
+    $('.main-nav').slideToggle();
+  });
+
   });
 
 
