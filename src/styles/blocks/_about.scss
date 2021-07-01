@@ -15,7 +15,7 @@
     }
 
     .main_text {
-      width: 1100px;
+      // max-width: 1100px;
       margin: 0 auto;
       padding-bottom: 235px;
     }
@@ -24,7 +24,6 @@
       padding-top: $section-indent;
       padding-bottom: $section-indent;
       background-color: rgba(21, 43, 60, 0.4);
-      // height: 550px;
       display: flex;
       flex-direction: column;
       justify-content: center;
