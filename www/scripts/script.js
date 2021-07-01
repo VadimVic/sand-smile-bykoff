@@ -30,30 +30,19 @@
 
 
 
-  $('.team_items a').on('click', function (e) {
+  $('.team_items a p').on('click', function (e) {
     e.preventDefault();
 
-    let index = $(this).index('.team_items a');
+    let index = $(this).index('.team_items a p');
     console.log(index);
 
-    $('.team_items a').removeClass('active');
+    $('.team_items a p').removeClass('active');
     $(this).addClass('active');
 
     $('.team-person').removeClass('team-person-visible');
     $('.team-person').eq(index).addClass('team-person-visible');
 
   });
-
-  $('.team_items p').on('click', function (e) {
-    e.preventDefault();
-
-  let index = $(this).index('.team_items p');
-  console.log(index);
-
-  $('.team_items p').removeClass('focus-red');
-  $(this).addClass('focus-red');
-  })
-
   });
 
 
