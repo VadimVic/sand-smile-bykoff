@@ -53,6 +53,40 @@
     $('.team-person').eq(index).addClass('team-person-visible');
 
   });
+
+  // используем аякс
+  $('.js-load-more').on('click', function(){
+
+    $.ajax({
+      type: 'POST',
+      url: 'json/product.json',
+      success: function(dataResponse) {
+        createProducts(dataResponse.products);
+
+      }
+    });
+
+  });
+
+  let productString = '';
+  function createProducts(data){
+    data.forEach(function(product){
+      productString = productString  + `<div class="products_item">
+      <a href="${product.link}" class="products_link">
+        <img src="${product.imageUrl}" alt="" class="products_pic">
+        <p class="product-desc">
+          ${product.title}
+        </p>
+      </a>
+    </div>`;
+
+    });
+
+    // console.log(productString);
+    return productString;
+  }
+
+
   });
 
 
