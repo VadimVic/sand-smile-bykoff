@@ -23,6 +23,10 @@
     position: relative;
   }
 
+  .team_item .active {
+    color: red;
+  }
+
   .team_item p {
     width: 291px;
     height: 53px;
@@ -48,6 +52,10 @@
 
     .team-person{
       display: none;
+    }
+
+    .team-person-visible {
+      display: block;
     }
 
     // .team-person team_item:active{

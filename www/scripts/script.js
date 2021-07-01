@@ -28,6 +28,20 @@
     $('.main-nav').slideToggle();
   });
 
+
+  $('.team_items a').on('click', function (e) {
+    e.preventDefault();
+
+    let index = $(this).index('.team_items a');
+    console.log(index);
+
+    $('.team_items a').removeClass('active');
+    $(this).addClass('active');
+
+    $('.team-person').removeClass('team-person-visible');
+    $('.team-person').eq(index).addClass('team-person-visible');
+  });
+
   });
 
 
