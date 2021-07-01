@@ -17,10 +17,10 @@
         <a class="brand_name" href="#">SandSmile</a>
         <nav class="main-nav">
           <ul class="nav-list">
-            <li><a href="#">Мастер-классы</a></li>
-            <li><a href="#">Локации</a></li>
-            ` <li><a href="#">Контакты</a></li>
-            <li><a href="#">Сувениры</a></li>
+            <li><a href="#promo">Мастер-классы</a></li>
+            <li><a href="#location">Локации</a></li>
+            ` <li><a href="#contacts">Контакты</a></li>
+            <li><a href="#team">Команда</a></li>
           </ul>
         </nav>
         <a class="phone-num" href="tel:89210000000">+7 812 888-88-88</a>
@@ -45,7 +45,7 @@
     </section>
 
 
-    <section class="products">
+    <section id="promo" class="products">
       <!-- бывший класс products_items -->
       <div class="container">
         <h2 class="second-title">Мастер-классы</h2>
@@ -161,7 +161,7 @@
     </section>
 
 
-    <section class="locations">
+    <section id="location" class="locations">
       <div class="container">
         <h2 class="second-title">
           Локации
@@ -204,7 +204,7 @@
       </div>
 
     </section>
-    <section class="team">
+    <section id="team" class="team">
       <div class="container">
         <h2 class="second-title">Команда</h2>
         <div class="team_items">
@@ -283,12 +283,12 @@
 
     </section>
 
-    <section class="contacts">
+    <section id="contacts" class="contacts">
       <div class="container">
         <h2 class="second-title">Контакты</h2>
-        <p class="contacts-text">Остались вопросы? Позвоните нам по телефону <a href="#">
+        <p class="contacts-text">Остались вопросы? Позвоните нам по телефону <a href="tel:889998">
             +7 812 888-88-88</a>,
-          напишите в <a href="#">whatsapp</a> или заполните <br> форму и мы ответим
+          напишите в <a href="https://wa.me/71234567890" target="blank">whatsapp</a> или заполните <br> форму и мы ответим
           вам в whatsapp по
           указанному номеру
           телефона.
@@ -301,8 +301,8 @@
           </div>
 
           <div class="form-field form-field-half">
-            <label for="mail">Телефон</label>
-            <input class="contacts-item" type="email" id="mail" name="user_email" />
+            <label for="phone-num">Телефон</label>
+            <input class="contacts-item" type="text" id="phone-num" name="user_email" />
           </div>
 
           <div class="form-field">
